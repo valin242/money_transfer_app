@@ -32,6 +32,24 @@ def auth():
 
     return
 
+class Buttons():
+    def payButton():
+        return
+    
+    def requestButton():
+        return
+    
+    def accountButton():
+        return
+    
+    def reloadButton():
+        return
+    
+    def homeButton():
+        return
+    
+    def signOutButton():
+        return
 
 def main():
     print("Welcome to the money app")

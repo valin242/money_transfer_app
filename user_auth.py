@@ -4,6 +4,8 @@ https://thecleverprogrammer.com/2021/05/02/password-authentication-using-python/
 
 One class for user_auth to include login, logout, register
 Another class for transactions
+
+Use Googe Firebase for authentication
 '''
 class Login(object): # does authentication need to be a separate class?
   
@@ -30,7 +32,8 @@ class Login(object): # does authentication need to be a separate class?
     status = False
     return print("You are logged out")
 
-  def signUp(): # sign up creates a new user name and password and logs you in
+  def signUp(): 
+    # sign up creates a new user name and password and logs you in
     # ask for user name, password, name (can add account later)
     # make requirements for password
     # check that user name doesn't already exist in the able
